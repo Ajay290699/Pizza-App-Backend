@@ -14,8 +14,12 @@ import java.util.Map;
 
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
-@RequestMapping("api/auth-service")
+@RequestMapping("api/authService")
 public class UserController {
+
+
+    // how to inject userService with manual syntax
+
 
     UserService userService;
     SecurityTokenGenerator securityTokenGenerator;

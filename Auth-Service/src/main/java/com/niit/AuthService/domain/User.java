@@ -5,7 +5,9 @@ package com.niit.AuthService.domain;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-
+// @Data : getters/setter/toString/equals
+// @AllArgsConstrcutor
+// @NoAr
 @Entity
 public class User {
 
